@@ -1,6 +1,8 @@
 /*
-*event library
-*@eventLibrary : you could use this object to handler web event when you pragramming,it's just a part of method for deal with 
+*@author   tiandiduw
+*@date     2017/03/08
+*@fileName event library
+*@detail   you could use this object to handler web event when you pragramming,it's just a part of method for deal with 
 *the web Event Object difference between various browser,will be improve all the time...(maybe)
 */
 var eventLibrary = {
