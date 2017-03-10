@@ -1,0 +1,16 @@
+document.getElementByClassName() doesn't work in low version browser,so there is a solution to cross various browsers below:
+
+function getByClass(clsName,parent){//@params 'clsName':className 'parent':parent Node Id
+  var oParent = parent?document.getElementById(parent):doucument,
+      eles = [];//a array to return
+      elements = oparent.getElementByTagName('*');
+      
+      for(var i=0,l=elements.length; i<l; i++){
+        if(elements[i].className == clsName){
+          eles.push(elements[i]);
+        }
+        return eles;
+      }
+}
+
+if you have defined the method 'getByClass' as above, then you can use it everywhere when you develop you web application.
